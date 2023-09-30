@@ -7,8 +7,8 @@ local hs = game:GetService("HttpService")
 
 local http_request = fluxus and fluxus.request or request
 
-if game:GetService("CoreGui"):FindFirstChild("visualise") then game:GetService("CoreGui"):FindFirstChild("visualise"):Destroy() end
-if game:GetService("CoreGui"):FindFirstChild("visualise") then return end
+if game:GetService("CoreGui"):FindFirstChild("urmom") then game:GetService("CoreGui"):FindFirstChild("urmom"):Destroy() end
+if game:GetService("CoreGui"):FindFirstChild("urmom") then return end
 
 local library = {}
 
@@ -18,7 +18,7 @@ function library.CreateMain()
 	local loops = {}
 
 	local visualise = Instance.new("ScreenGui")
-	visualise.Name = "visualise"
+	visualise.Name = "urmom"
 	visualise.Parent = (game:GetService("CoreGui") or gethui())
 	visualise.ResetOnSpawn = false
 	visualise.ZIndexBehavior = Enum.ZIndexBehavior.Global
