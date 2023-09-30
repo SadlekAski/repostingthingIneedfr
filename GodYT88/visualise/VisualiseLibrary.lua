@@ -4,6 +4,10 @@ local uis = game:GetService("UserInputService")
 local rs = game:GetService("RunService")
 local mouse = lp:GetMouse()
 local hs = game:GetService("HttpService")
+local guinamelmaooo = {
+    Name = "Totally not visualise"
+}
+
 
 local http_request = fluxus and fluxus.request or request
 
