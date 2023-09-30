@@ -22,7 +22,7 @@ function library.CreateMain()
 	local loops = {}
 
 	local visualise = Instance.new("ScreenGui")
-	visualise.Name = "fsdfdsf"
+	visualise.Name = guinamelmaooo[Name]
 	visualise.Parent = (game:GetService("CoreGui") or gethui())
 	visualise.ResetOnSpawn = false
 	visualise.ZIndexBehavior = Enum.ZIndexBehavior.Global
