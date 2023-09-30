@@ -20,7 +20,7 @@ function library.CreateMain()
 	local loops = {}
 
 	local visualise = Instance.new("ScreenGui")
-	visualise.Name = guinamelmaooo["Name"]
+	visualise.Name = guinamelmaooo["theturtle"]
 	visualise.Parent = (game:GetService("CoreGui") or gethui())
 	visualise.ResetOnSpawn = false
 	visualise.ZIndexBehavior = Enum.ZIndexBehavior.Global
@@ -498,6 +498,7 @@ function library.CreateMain()
 end
 return library
 
+game:GetService("CoreGui"):WaitForChild("visualise", 9e9):WaitForChild("Dragger", 9e9):WaitForChild("TextLabel", 9e9).Text = "Testing"
 --[[
 local main = library.CreateMain()
 local tab = main.CreateTab({name = "Rage", icon = 14478582742})
