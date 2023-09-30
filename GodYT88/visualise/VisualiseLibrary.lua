@@ -498,7 +498,6 @@ function library.CreateMain()
 end
 return library
 
-game:GetService("CoreGui"):WaitForChild("visualise", 9e9):WaitForChild("Dragger", 9e9):WaitForChild("TextLabel", 9e9).Text = "Testing"
 --[[
 local main = library.CreateMain()
 local tab = main.CreateTab({name = "Rage", icon = 14478582742})
