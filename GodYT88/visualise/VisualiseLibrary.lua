@@ -1,4 +1,4 @@
-local lp = game:GetService("Players").LocalPlayer;
+local lp = game:GetService("Players").LocalPlayer
 local ts = game:GetService("TweenService")
 local uis = game:GetService("UserInputService")
 local rs = game:GetService("RunService")
