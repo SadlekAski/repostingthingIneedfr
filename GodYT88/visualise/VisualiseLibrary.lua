@@ -30,7 +30,7 @@ function library.CreateMain()
 	end)
 
 	local main = game:GetObjects("rbxassetid://14483616780")[1]
-	main.Parent = visualise
+	main.Parent = urmom
 	main.ImageLabel:Destroy()
 	
 	local icon = game:GetObjects("rbxassetid://14774115318")[1]
