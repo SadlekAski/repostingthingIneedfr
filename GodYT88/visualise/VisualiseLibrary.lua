@@ -1,16 +1,14 @@
-local lp = game:GetService("Players").LocalPlayer
+local lp = game:GetService("Players").LocalPlayer;
 local ts = game:GetService("TweenService")
 local uis = game:GetService("UserInputService")
 local rs = game:GetService("RunService")
 local mouse = lp:GetMouse()
 local hs = game:GetService("HttpService")
-local guinamelmaooo = {theturtle = "Tortoise"}
-
 
 local http_request = fluxus and fluxus.request or request
 
-if game:GetService("CoreGui"):FindFirstChild("fsdfdsf") then game:GetService("CoreGui"):FindFirstChild("fsdfdsf"):Destroy() end
-if game:GetService("CoreGui"):FindFirstChild("fsdfdsf") then return end
+if game:GetService("CoreGui"):FindFirstChild("visualise") then game:GetService("CoreGui"):FindFirstChild("visualise"):Destroy() end
+if game:GetService("CoreGui"):FindFirstChild("visualise") then return end
 
 local library = {}
 
@@ -20,7 +18,7 @@ function library.CreateMain()
 	local loops = {}
 
 	local visualise = Instance.new("ScreenGui")
-	visualise.Name = guinamelmaooo["theturtle"]
+	visualise.Name = "visualise"
 	visualise.Parent = (game:GetService("CoreGui") or gethui())
 	visualise.ResetOnSpawn = false
 	visualise.ZIndexBehavior = Enum.ZIndexBehavior.Global
@@ -395,7 +393,7 @@ function library.CreateMain()
 					Object.AutoButtonColor = false
 					Object.Text = ""
 					Object.TextColor3 = Color3.fromRGB(0, 0, 0)
-					Object.TextSize = 14
+					Object.TextSize = 14.000
 
 					UICorner_2.CornerRadius = UDim.new(0, 5)
 					UICorner_2.Parent = Object
