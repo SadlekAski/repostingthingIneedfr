@@ -7,8 +7,8 @@ local hs = game:GetService("HttpService")
 
 local http_request = fluxus and fluxus.request or request
 
-if game:GetService("CoreGui"):FindFirstChild("urmom") then game:GetService("CoreGui"):FindFirstChild("urmom"):Destroy() end
-if game:GetService("CoreGui"):FindFirstChild("urmom") then return end
+if game:GetService("CoreGui"):FindFirstChild("fsdfdsf") then game:GetService("CoreGui"):FindFirstChild("fsdfdsf"):Destroy() end
+if game:GetService("CoreGui"):FindFirstChild("fsdfdsf") then return end
 
 local library = {}
 
@@ -18,7 +18,7 @@ function library.CreateMain()
 	local loops = {}
 
 	local visualise = Instance.new("ScreenGui")
-	visualise.Name = "urmom"
+	visualise.Name = "fsdfdsf"
 	visualise.Parent = (game:GetService("CoreGui") or gethui())
 	visualise.ResetOnSpawn = false
 	visualise.ZIndexBehavior = Enum.ZIndexBehavior.Global
@@ -30,7 +30,7 @@ function library.CreateMain()
 	end)
 
 	local main = game:GetObjects("rbxassetid://14483616780")[1]
-	main.Parent = urmom
+	main.Parent = visualise
 	main.ImageLabel:Destroy()
 	
 	local icon = game:GetObjects("rbxassetid://14774115318")[1]
