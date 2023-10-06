@@ -10,7 +10,7 @@ local Toggle2 = Tabs.Main:AddToggle("MyToggle", {Title = "+", Default = false })
     Toggle:OnChanged(function(arg)
        if arg then
         local dothing = "dothing"
-            rint(dothing)
+            print(dothing)
         else
             local notdothing = "Not doing thing"
             print(notdothing)
