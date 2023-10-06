@@ -3,6 +3,8 @@ Fluent tutorial (I just need this to dont forget how to do things in fluent)
 all credits to: dawid-scripts
 
 
+Better Toggle (FRFFRFRFRFFRFfrfrffr)
+
 local Toggle2 = Tabs.Main:AddToggle("MyToggle", {Title = "+", Default = false })
 
     Toggle:OnChanged(function(arg)
