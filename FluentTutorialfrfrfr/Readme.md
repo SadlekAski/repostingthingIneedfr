@@ -16,3 +16,13 @@ local Toggle2 = Tabs.Main:AddToggle("MyToggle", {Title = "+", Default = false })
             print(notdothing)
         end
     end)
+well or
+
+Main:AddToggle("IdkName", {
+        Title = "Name",
+        Description = "Makes Something",
+        Default = false,
+        Callback = function(Value)
+            --do something fr
+        end
+    })
